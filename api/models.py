@@ -10,3 +10,5 @@ class programmer(models.Model):
     phone = models.CharField(max_length=10, null=True, default=None)
     is_activate = models.BooleanField(default=True)
     
+
+    
