@@ -14,7 +14,7 @@ class student(models.Model):
     nombre = models.CharField(max_length=20)
     apellido = models.CharField(max_length=20)
     sexo = models.CharField(max_length=1)
-    num_Ficha = models.PositiveSmallIntegerField(default=0)
+    num_Ficha = models.PositiveBigIntegerField(default=0)
     formacion = models.BooleanField(default=True)
     fecha_Ingreso = models.DateField()
     
